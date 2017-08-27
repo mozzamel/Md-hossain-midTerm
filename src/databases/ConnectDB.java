@@ -131,6 +131,25 @@ public class ConnectDB {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
+
+    }
+
+
+    public void InsertDataFromIntegerToMySql(int ArrayData,String tableName, String columnName)
+    {
+        try {
+            connectToMySql();
+            ps = connect.prepareStatement("INSERT INTO "+tableName+" ( "+columnName+" ) VALUES(?)");
+            ps.setInt(1,ArrayData);
+            ps.executeUpdate();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
     }
 
     public List<String> directDatabaseQueryExecute(String passQuery,String dataColumn)throws Exception{

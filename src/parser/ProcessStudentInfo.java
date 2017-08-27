@@ -58,7 +58,7 @@ public class ProcessStudentInfo {
 				//Parse Data using parseData method and then store data into Qtp ArrayList.
 				
 				//add Selenium ArrayList data into map.
-			
+				//list.put("Selenium Student", seleniumStudents);
 				//add Qtp ArrayList data into map.
 		
 		      	
@@ -67,7 +67,7 @@ public class ProcessStudentInfo {
 				//Store Qtp data into Qtp table in Database
 
 				//Store Selenium data into Selenium table in Database
-
+				;
 				//Retrieve Selenium and Qtp students from Database
 
 				

@@ -1,5 +1,7 @@
 package datastructure;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.util.*;
 
 public class DataReader {
@@ -20,7 +22,10 @@ public class DataReader {
 		 * Use For Each loop/while loop/Iterator to retrieve data.
 		 */
 
-		String textFile = System.getProperty("user.dir") + "/src/data/self-driving-car.txt";
+		String textFile = System.getProperty("user.dir") + "/src/data/self-driving-car";
+		//BufferedReader br = new BufferedReader (new fileRead() )
+
+
 
 
 

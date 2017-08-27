@@ -1,45 +1,91 @@
-Please answer the below core-java Questions:
-
 
 What jdk contains or composed of and define each components?
+    Ans: JDK contains JRE, compiler and debugger.
+    JRE - Java Runtime Environment
+    Compiler - translates Java code into machine code
+    Debugger -  provides inspection and debugging
 What is IDE?
+    Ans: IDE is Integrated Development Environment.
 What are the IDEs available in the market to support java?
+    Ans: Eclipse, Intellij, NetBeans.
 Explain the entire java life cycle.
+    A java program will be written and then compiled by a Java Compiler. From there, it will turn it into
+    a .class, which then goes through an interpreter. This translates the java code into binary machine code.
+    This is then outputted to the computer.
 what is class?
+    Ans: A blueprint for creating objects.
 What is object?
+    Ans: An entity that has state and behavior.
 What is the entry point of an application?
+    Ans: The main method
 Why main is static?
+    Ans: Main is called by the JVM before any objects are made.
 What is the difference between an Interface and Abstract class?
+    Ans: You can only declare methods in interface, and can implement non-abstract methods and declare
+    abstract methods in abstract class.
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+    Ans: You can not instantiate an interface and abstract class. Instead you can instantiate one of their
+     subclasses or implementers.
 what is Access Specifier?
+    Ans: The access to classes, constructors, methods and fields using access modifiers. (public, private, protected)
 What is OOP ? Define each feature of java OOP.
+    Ans: OOP is Object Oriented Programming. It consists of abstraction, encapsulation, inheritance and polymorphism.
+    Abstraction - implementation hiding
+    Encapsulation - data hiding
+    Inheritance - mechanism to acquire all the properties and behavior from it's parent object
+    Polymorphism - the ability of an object to take on many forms
 What is API? Name list of API that you have used so far.
+    Ans: Application Program Interface. We have used BufferedReader, FileReader, Scanner, String.
 Does java support multiple inheritance?
+    Ans: No
 What is method overloading and when it happens?
+    Ans: Allows a class to have two or more methods having same name. Happens in compile time.
+What is method overriding and when it happens?
+    Ans: Allows subclass or child class to provide a specific implementation of a method that is already provided
+    by one of its superclasses or parent classes. It happens in run time.
 Explain exceptions in java and how to handle it.
+    Ans: It is an event which occurs during the execution of a program which disrupts the program's instructions. It is
+    handled by try and catch block.
 What is static keyword in java? How it has been used in variables and methods ?
+    Ans: Is a member variable, or method, can be accessed without requiring an instantiation of the class to which it
+    belongs.
 What is final and how it has been used variables and methods?
+    Ans: Used to variables to make its values not to be changed. If you want a value of a variable or a method to
+    never change, then use the final key word.
 What is final, finally and finalize?
+    Ans: Final is used to apply restrictions on class, method and variable. It can't be inherited, final method can't
+    be overridden and final variable value can't be changed. Finally is used to place important code, it will be
+    executed whether exception is handled or not. Finalize is used to perform clean up processing just before object
+    is garbage collected.
 What is a constructor ?
+    Ans: Special method of a class that initializes an object of that class type.
 What is "this" keyword in java ?
+    Ans: It is a reference to the current object whose method or constructor is being invoked.
 What is "super" keyword in java?
+    Ans: Reference variable which is used to refer immediate parent class object.
 What is JVM stand for ?
+    Ans: Java Virtual Machine
 What version of java are you using?
+    Ans: 1.8
 What is JAR stand for ?
+    Ans: Java Archive
 What is compile time and run time?
+    Ans: Compile time - the time period in which you are compiling the code
+    Run time - the time period in which you are running your piece of software
 What is heap?
+    Ans: Runtime data area from which memory for all class instances and arrays are located
 How java manage it's memory?
+    Ans: By the heap, which is created when the JVM starts up.
 What is the difference between String, StringBuffer and StringBuilder?
-What is Singleton class?
-What is Serialization and Deserialization?
-Which one will take more memory, an int or Integer?
-Why is String Immutable in Java?
-What is constructor chaining in Java?
-The difference between Serial and Parallel Garbage Collector?
-What is JIT stands for?
-Explain Java Heap space and Garbage collection?
-Can you guarantee the garbage collection process?
-What is the difference between stack and heap in Java?
-
-
-
+    Ans: String is immutable which means once created, it can not be changed, StringBuffer is mutable which means one
+    can change value of the object. StringBuilder is the same as StringBuffer but StringBuilder is not thread safe.
+    What is Singleton class?
+    What is Serialization and Deserialization?
+    Which one will take more memory, an int or Integer?
+    Why is String Immutable in Java?
+    What is constructor chaining in Java?
+    The difference between Serial and Parallel Garbage Collector?
+    What is JIT stands for?
+    Explain Java Heap space and Garbage collection?
+    Can you guarantee the garbage collection process?
+    What is the difference between stack and heap in Java?

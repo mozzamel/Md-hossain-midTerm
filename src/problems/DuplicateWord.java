@@ -1,5 +1,7 @@
 package problems;
 
+import java.util.HashMap;
+
 /**
  * Created by mrahman on 04/22/17.
  */
@@ -12,6 +14,9 @@ public class DuplicateWord {
          */
 
         String st = "Java is a programming Language. Java is also an Island of Indonesia. Java is widely used language";
+        String[] splitwords = st.split("");
+        //Map<String, Integer>wordMap = new HashMap<>();
+
 
     }
 
